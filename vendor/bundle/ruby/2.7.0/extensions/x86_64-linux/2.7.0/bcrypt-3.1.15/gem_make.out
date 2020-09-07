@@ -1,0 +1,19 @@
+current directory: /home/khanh/depot/vendor/bundle/ruby/2.7.0/gems/bcrypt-3.1.15/ext/mri
+/home/khanh/.rbenv/versions/2.7.1/bin/ruby -I /home/khanh/.rbenv/versions/2.7.1/lib/ruby/2.7.0 -r ./siteconf20200828-7780-1h9d9gn.rb extconf.rb
+creating Makefile
+
+current directory: /home/khanh/depot/vendor/bundle/ruby/2.7.0/gems/bcrypt-3.1.15/ext/mri
+make "DESTDIR=" clean
+
+current directory: /home/khanh/depot/vendor/bundle/ruby/2.7.0/gems/bcrypt-3.1.15/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt_blowfish.c
+gcc  -D__SKIP_GNU -I/home/khanh/.rbenv/versions/2.7.1/include     -c -o x86.o x86.S
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.so
+
+current directory: /home/khanh/depot/vendor/bundle/ruby/2.7.0/gems/bcrypt-3.1.15/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20200828-7780-vk6333
